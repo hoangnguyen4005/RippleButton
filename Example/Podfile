@@ -1,0 +1,10 @@
+
+use_frameworks!
+
+target 'Example' do
+  pod 'RippleButton', :path => '../'
+end
+
+target 'ExampleTests' do
+   inherit! :search_paths
+end

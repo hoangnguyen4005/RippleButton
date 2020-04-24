@@ -1,0 +1,6 @@
+framework module RippleButton {
+  umbrella header "RippleButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
